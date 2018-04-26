@@ -1,0 +1,66 @@
+<article class="highlightslist <% if (pageID == 'home') { %>jumbotron hidden-xs<% } %>">
+  <div class="container">
+    <div class="row">
+        <% highlights.forEach(function(item) { %>
+        <div class="<% if (pageID == 'home') { %>col-sm-4 text-center<% } else { %>col-sm-8 <% } %>">
+          <h3 class="highlightslist-title"><%= item.site %></h3>
+          <h5 class="highlightslist-name">with <a href="/highlights/<%= item.shortname %>"><%= item.site %></a></h5>
+          <div class="highlightslist-info">
+            <a href="/highlights/<%= item.id %>">
+
+              <% if (pageID == 'home') { %>
+                <img class="highlightslist-img img-circle" src="<%= item.image %>" alt="Photo of <%= item.site %>" width="300"></a>
+              <% } %>
+
+              <% if (pageID == 'highlightList') { %>
+                <img class="highlightslist-img img-circle pull-left" src="<%= item.image %>" alt="Photo of <%= item.site %>" width="300"></a>
+              <% } %>
+            </a>
+
+            <% if (pageID == 'highlightDetail') { %>
+              <img class="highlightslist-img img-responsive pull-left" src="<%= item.image %>" alt="Photo of <%= item.site %>" width="600"></a>
+            <% } %>
+          </a>
+
+            <% if (pageID !== 'home') { %>
+              <% if (pageID == 'highlightList') { %>
+                <%= item.category %>
+              <% } else { %>
+                <iframe src="<%= item.videoEmbed %>"></iframe>
+
+<div id="map" style="width:500px; height: 300px">
+<script>
+  var map;
+  var pin = {lat: <%= item.lat %>, lng: <%= item.long %>}
+  function initMap() {
+    map = new google.maps.Map(document.getElementById('map'), {
+      zoom: 6,
+      center: {
+      lat: 64.126521,
+      lng: -21.817439
+    },
+      minZoom: 5,
+      maxZoom: 20,
+      mapTypeId: google.maps.MapTypeId.ROADMAP,
+      draggable: true,
+      scrollwheel: false
+    });
+
+    var marker = new google.maps.Marker({
+      position: pin,
+      map: map
+    });
+  }
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkH4dFes_Fb9DE4o5z0tzkqUT-snvtziM&callback=initMap"
+async defer></script>
+                <%- item.info %>
+              <% } %>
+            <% } %>
+          </div>
+        </div>
+        <%  }); %>
+    </div><!-- row -->
+  </div><!-- container -->
+</article>

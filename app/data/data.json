@@ -1,24 +1,77 @@
-{
-  "speakers": [{
-    "title" : "Art in Full Bloom",
-    "name": "Lorenzo Garcia",
-    "shortname" : "Lorenzo_Garcia",
-    "summary" : "Drawing and painting flowers may seem like a first-year art student's assignment, but Lorenzo Garcia brings depth, shadows, light, form and color to new heights with his unique and revolutionary technique of painting on canvas with ceramic glaze. This session is sure to be a hit with mixed media buffs.",
-    "description": "<p>Lorenzo was born in Mexico, but grew up in Southern California after his mother immigrated to Los Angeles when he was a year old. His mother worked as a seamstress in the Fashion District and brought home scrap materials for Lorenzo to create his early mixed media art. From that point on, Lorenzo became hooked on creating art from scrap metals, fabrics, wood, canvas, and many others. During his junior year at Bischon Art School in Los Angeles, he perfected his own proprietary method of painting on canvas with ceramic glaze, which he will demonstrate on Monday in his session, 'Art in Full Bloom'.</p><p>Lorenzo paints with an extraordinary amount of color, and prefers to create art centered around nature, animals, and science. Now in his senior year at Bischon, Lorenzo has been creating mixed media totem poles made from old telephone poles, and other recycled materials, and is already planning his next new technique that will likely inspire a trend for years to come.</p>",
-    "artwork": ["Lorenzo_Garcia_01_tn.jpg", "Lorenzo_Garcia_02_tn.jpg", "Lorenzo_Garcia_03_tn.jpg", "Lorenzo_Garcia_04_tn.jpg"]
-  },{
-    "title" : "Deep Sea Wonders",
-    "name": "Hilary Goldywynn Post",
-    "shortname" : "Hillary_Goldwynn",
-    "summary": "Hillary is a sophomore art sculpture student at New York University, and has won the major international prizes for painters, including the Divinity Circle and the International Painter's Medal. Hillary's exhibit features paintings that contain only water including waves, deep sea, and river.",
-    "description": "<p>Hillary is a sophomore art sculpture student at New York University, and has already won all the major international prizes for new painters, including the Divinity Circle, the International Painter's Medal, and the Academy of Paris Award. Hillary's CAC exhibit features paintings that contain only water images including waves, deep sea, and river.</p><p>An avid water sports participant, Hillary understands the water in many ways in which others do not, or may not ever have the opportunity. Her goal in creating the CAC exhibit was to share with others the beauty, power, and flow of natural bodies of water throughout the world. In addition to the display, Hilary also hosts a session on Tuesday called Deep Sea Wonders, which combines her love of deep sea diving and snorkeling, with instruction for capturing the beauty of underwater explorations on canvas.</p>",
-    "artwork" : ["Hillary_Goldwynn_01_tn.jpg" , "Hillary_Goldwynn_02_tn.jpg" , "Hillary_Goldwynn_03_tn.jpg" , "Hillary_Goldwynn_04_tn.jpg" , "Hillary_Goldwynn_05_tn.jpg" , "Hillary_Goldwynn_06_tn.jpg" , "Hillary_Goldwynn_07_tn.jpg"]
-  },{
-    "title" : "The Art of Abstract",
-    "name": "Riley Rudolph Rewington",
-    "shortname" : "Riley_Rewington",
-    "summary": "The leader of the MMA artistic movement in his hometown of Portland, Riley Rudolph Rewington draws a crowd wherever he goes. Mixing street performance, video, music, and traditional art, Riley has created some of the most unique and deeply poignant abstract works of his generation.",
-    "description": "<p>Riley started out as musician and street performance artist, and now blends painting and photography with audio, video, and computer multimedia to create what he calls 'Music and Multimedia Artworks.' Riley's innovations in using multimedia to express art have created a youth culture movement in his town of Portland, in which he remains at the forefront. In his role as the founder of the MMA art form, Riley has become an inspiration to many up and coming artists. However, the part Riley insists is most important to him, is that he's helped many troubled youth take control of their lives, and create their own unique, positive futures. Seeing kids he's mentored graduate from high school and enroll in college, gives art the purpose that Riley so craves.</p><p>A first-year student at the Roux Academy of Art, Media, and Design, Riley is already changing the face of modern art at the university. Riley's exquisite abstract pieces have no intention of ever being understood, but instead beg the viewer to dream, create, pretend, and envision with their mind's eye. Riley will be speaking on the 'Art of Abstract' during Thursday's schedule.</p>",
-    "artwork" : ["Riley_Rewington_01_tn.jpg","Riley_Rewington_02_tn.jpg","Riley_Rewington_03_tn.jpg","Riley_Rewington_04_tn.jpg","Riley_Rewington_05_tn.jpg","Riley_Rewington_06_tn.jpg"]
-  }]
+{"data":
+  {
+    "bgImage": "http://cdn-image.travelandleisure.com/sites/default/files/styles/1600x1000/public/1487715885/HEADER-Facebook-Iceland-ic0217.jpg?itok=s_gcMYow",
+    "highlights":[
+      {"id":"1",
+        "site":"Kirkjufell",
+        "category":"Mountain",
+        "info": "Kirkjufell (Icelandic: Church mountain) is a 463m high mountain on the north coast of Iceland's Snæfellsnes peninsula, near the town of Grundarfjörður. Kirkjufell was one of the filming locations for Game of Thrones season 6 and 7, featuring as the arrowhead mountain that the Hound and the company north of the Wall see when capturing a wight.",
+        "lat": "64.9416667",
+        "long": "-23.3069444",
+        "image": "https://media.nomadicmatt.com/icelandpics.jpg",
+        "video": "https://www.youtube.com/watch?v=hVGF-U8Afss",
+        "videoEmbed":"https://www.youtube.com/embed/hVGF-U8Afss"
+      },
+      {"id":"2",
+        "site":"Seljalandsfoss",
+        "category":"Waterfall",
+        "info": "Seljalandsfoss is a waterfall in Iceland. Seljalandsfoss is located in the South Region in Iceland right by Route 1 and the road that leads to Þórsmörk Road 249. The waterfall drops 60 m (197 ft) and is part of the Seljalands River that has its origin in the volcano glacier Eyjafjallajökull. Visitors can walk behind the falls into a small cave.",
+        "lat": "63.6156232",
+        "long": "-19.9885688",
+        "image": "https://media.nomadicmatt.com/iceland23.jpg",
+        "video": "https://www.youtube.com/watch?v=O7okOo1cBa0",
+        "videoEmbed": "https://www.youtube.com/embed/O7okOo1cBa0"
+      },
+      {"id":"3",
+        "site":"Blue Lagoon",
+        "category":"Geothermal Spa",
+        "info": "The Blue Lagoon (Icelandic: Bláa lónið) geothermal spa is one of the most visited attractions in Iceland. The spa is located in a lava field in Grindavík on the Reykjanes Peninsula, southwestern Iceland in a location favourable for Geothermal power, and is supplied by water used in the nearby Svartsengi geothermal power station. Bláa lónið is situated approximately 20 km (12 mi) from the Keflavík International Airport and 39 km (24 mi) from the capital city of Reykjavík, roughly a 21-minute drive from the airport and a 50-minute drive from Reykjavík.",
+        "lat": "63.880391",
+        "long": "-22.4495089",
+        "image": "https://guidetoiceland.is/image/352080/x/0/the-ultimate-guide-to-the-blue-lagoon-7.jpg",
+        "video": "https://www.youtube.com/watch?v=CTzeKx50PM0",
+        "videoEmbed": "https://www.youtube.com/embed/CTzeKx50PM0"
+      },
+      {"id":"4",
+        "site":"Gulfoss",
+        "category":"Waterfall",
+        "info": "Gullfoss is one of the most popular tourist attractions in Iceland. The wide Hvítá river rushes southward, and about a kilometre above the falls it turns sharply to the right and flows down into a wide curved three-step staircase and then abruptly plunges in two stages (11 metres or 36 feet, and 21 metres or 69 feet) into a crevice 32 metres (105 ft) deep. The crevice, about 20 metres (66 ft) wide and 2.5 kilometres (1.6 mi) in length, extends perpendicular to the flow of the river. The average amount of water running down the waterfall is 140 cubic metres (4,900 cu ft) per second in the summer and 80 cubic metres (2,800 cu ft) per second in the winter. The highest flood measured was 2,000 cubic metres (71,000 cu ft) per second.",
+        "lat": "64.3270716",
+        "long": "-20.1199478",
+        "image": "http://www.ryansmithstudios.com/uploads/6/6/3/7/66372611/13522987-10154276351221228-2088319643542302583-o_orig.jpg",
+        "video": "https://www.youtube.com/watch?v=JeT36XQDU60",
+        "videoEmbed": "https://www.youtube.com/embed/JeT36XQDU60"
+      },
+      {"id":"5",
+        "site":"Reynisfjara",
+        "category":"Beach",
+        "info": "Reynisfjara Beach is the most famous black sanded beach in Iceland. This is a place of wild and dramatic beauty where the roaring waves of the Atlantic Ocean power ashore with tremendous force. In 1991 Reynisfjara appeared on the top ten list of the most beautiful non-tropical beaches in the world. Some people have said that to stand on the beach is akin to being in a natural amphitheater where the white water of the Atlantic waves provide the drama. At any time of year and in any light this is a place of great beauty which will remind you that can never be far from the powerful forces of nature which shaped Iceland. Marvel at the power of the ocean but do not stand too close – those masterful waves deserve your respect!",
+        "lat": "63.405097",
+        "long": "-19.056101",
+        "image": "https://farm3.staticflickr.com/2852/34009854501_91053646c6_c.jpg",
+        "video": "https://www.youtube.com/watch?v=sOXJ1h6VtV8",
+        "videoEmbed": "https://www.youtube.com/embed/sOXJ1h6VtV8"
+      },
+      {"id":"6",
+        "site":"Reykjavík",
+        "category":"City",
+        "info": "Rekjavik is the caital and the largest city in Iceland. Reykjavík is believed to be the location of the first permanent settlement in Iceland, which, according to Ingólfur Arnarson, was established in AD 874. Until the 19th century, there was no urban development in the city location. The city was founded in 1786 as an official trading town and grew steadily over the next decades, as it transformed into a regional and later national centre of commerce, population, and governmental activities. It is among the cleanest, greenest, and safest cities in the world.",
+        "lat": "64.126521",
+        "long": "-21.817439",
+        "image": "http://finedininglovers.cdn.crosscast-system.com/BlogPost/xl_12545_reykjavik-finedininglovers-tp.jpg",
+        "video": "https://www.youtube.com/watch?v=RyiZabA2vQI",
+        "videoEmbed": "https://www.youtube.com/embed/RyiZabA2vQI"
+      },
+      {"id":"7",
+        "site":"Skógafoss",
+        "category":"Waterfall",
+        "info": "Skógafoss (pronounced [ˈskou.aˌfɔs]) is a waterfall situated on the Skógá River in the south of Iceland at the cliffs of the former coastline. After the coastline had receded seaward (it is now at a distance of about 5 kilometres (3.1 miles) from Skógar), the former sea cliffs remained, parallel to the coast over hundreds of kilometres, creating together with some mountains a clear border between the coastal lowlands and the Highlands of Iceland.",
+        "lat": "63.532052",
+        "long": "-19.511370",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Skogafoss_from_below.JPG/1200px-Skogafoss_from_below.JPG",
+        "video": "https://www.youtube.com/watch?v=9oShXdFB5tk",
+        "videoEmbed": "https://www.youtube.com/embed/9oShXdFB5tk"
+      }
+    ]
+  }
 }
